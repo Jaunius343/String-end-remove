@@ -1,0 +1,9 @@
+#include <string.h>
+
+#define SIZE 256
+
+void strEndRemove(char string[])
+{
+    for (int i = strlen(string) - 1; i < SIZE; ++i)
+       string[i] = 0;
+}
