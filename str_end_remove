@@ -2,7 +2,7 @@
 
 #define SIZE 256
 
-void strEndRemove(char string[])
+void str_end_remove(char string[])
 {
     for (int i = strlen(string) - 1; i < SIZE; ++i)
        string[i] = 0;
